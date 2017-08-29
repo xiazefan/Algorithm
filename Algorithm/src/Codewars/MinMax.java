@@ -18,7 +18,7 @@ public class MinMax {
 		int result[] = { arr[0], arr[arr.length - 1] };
 		System.out.println(Arrays.toString(result));
 		return arr;
-	}// test
+	}
 
 	public static void main(String[] args) {
 		MinMax mm = new MinMax();
