@@ -22,7 +22,7 @@ public class ReverseInteger {
 
 			int finalResult = Integer.parseInt(result.toString());
 			return finalResult;
-		} catch (NumberFormatException e) {
+		} catch (NumberFormatException e) {// test
 			return 0;
 		}
 	}
