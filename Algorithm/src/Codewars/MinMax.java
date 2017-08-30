@@ -22,7 +22,9 @@ public class MinMax {
 
 	public static void main(String[] args) {
 		MinMax mm = new MinMax();
-		int[] a = { 5, 4, 3, 2, 1 };
+		// int[] a = { 1, 2, 3, 4, 5 };
+		// int[] a = { 2334454, 5 };
+		int[] a = { 1 };
 		mm.minMax(a);
 	}
 
