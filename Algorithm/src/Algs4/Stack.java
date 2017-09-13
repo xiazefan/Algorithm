@@ -38,7 +38,7 @@ public class Stack {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+		int[] a = { 9, 4, 6, 7, 5, 3, 2, 1, 8 };
 		Stack.sort(a);
 		System.out.println(Arrays.toString(a));
 	}
