@@ -50,6 +50,8 @@ public class AddTwoNumbers {
 		AddTwoNumbers atn = new AddTwoNumbers();
 		int[] intput1 = new int[] { 2, 4, 3 };
 		int[] intput2 = new int[] { 5, 6, 4 };
+		// int[] intput1 = new int[] { 5 };
+		// int[] intput2 = new int[] { 5 };
 		ListNode l1 = atn.buildListNode(intput1);
 		ListNode l2 = atn.buildListNode(intput2);
 		ListNode result = atn.addTwoNumbers(l1, l2);
